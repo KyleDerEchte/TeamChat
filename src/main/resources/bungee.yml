@@ -1,0 +1,4 @@
+name: Teamchat
+version: ${project.version}
+main: de.kyleonaut.teamchat.Teamchat
+author: kyleonaut

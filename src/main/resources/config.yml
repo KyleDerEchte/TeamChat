@@ -1,0 +1,36 @@
+################
+#
+# Chatmessages
+#
+################
+
+prefix:
+  Prefix: "§8[§6Team§7Chat§8]"
+messages:
+  NoPermission: "%prefix% §cYou don't have permissions to execute this command!"
+  Format: "%prefix% §6%name% §8|§f %message%"
+  EnabledTeamChat: "%prefix% §6Teamchat §aenabled"
+  DisabledTeamChat: "%prefix% §6Teamchat §cdisabled"
+  HoverEventMessage: "§6Sent from Server %server%"
+  ConfigReload: "%prefix% §aConfig reloaded!"
+
+################
+#
+# Permission
+#
+################
+
+# teamchat
+# ➥ Permission to send and receive messages in the teamchat
+
+# teamchat.admin
+# ➥ Permission to reload this config file
+
+################
+#
+# Commands
+#
+################
+
+# /teamchat | /tc
+# ➥ Enable or disable the teamchat
