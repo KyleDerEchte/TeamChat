@@ -13,6 +13,8 @@ messages:
   DisabledTeamChat: "%prefix% §6Teamchat §cdisabled"
   HoverEventMessage: "§6Sent from Server %server%"
   ConfigReload: "%prefix% §aConfig reloaded!"
+  UserDisconnect: "%prefix% §6%name% disconnected."
+  UserJoin: "%prefix% §6%name% joined."
 
 ################
 #

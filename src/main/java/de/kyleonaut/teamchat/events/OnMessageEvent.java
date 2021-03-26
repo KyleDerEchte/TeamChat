@@ -13,11 +13,7 @@ import net.md_5.bungee.event.EventHandler;
 
 public class OnMessageEvent implements Listener {
 
-    private final Teamchat plugin;
-
-    public OnMessageEvent(Teamchat plugin) {
-        this.plugin = plugin;
-    }
+    private final Teamchat plugin = Teamchat.getInstance();
 
     @EventHandler
     public void onMessage(ChatEvent event) {
